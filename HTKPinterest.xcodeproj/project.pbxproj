@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25706C1212346D000C0BB66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25706C0212346D000C0BB66 /* AppDelegate.swift */; };
+		C25706C3212346D000C0BB66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25706C2212346D000C0BB66 /* ViewController.swift */; };
+		C25706C6212346D000C0BB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25706C4212346D000C0BB66 /* Main.storyboard */; };
+		C25706C8212346D300C0BB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25706C7212346D300C0BB66 /* Assets.xcassets */; };
+		C25706CB212346D300C0BB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25706C9212346D300C0BB66 /* LaunchScreen.storyboard */; };
+		C25706D6212346D300C0BB66 /* HTKPinterestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25706D5212346D300C0BB66 /* HTKPinterestTests.swift */; };
+		C25706E1212346D300C0BB66 /* HTKPinterestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25706E0212346D300C0BB66 /* HTKPinterestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25706D2212346D300C0BB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25706B5212346D000C0BB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25706BC212346D000C0BB66;
+			remoteInfo = HTKPinterest;
+		};
+		C25706DD212346D300C0BB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25706B5212346D000C0BB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25706BC212346D000C0BB66;
+			remoteInfo = HTKPinterest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C25706BD212346D000C0BB66 /* HTKPinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTKPinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25706C0212346D000C0BB66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C25706C2212346D000C0BB66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C25706C5212346D000C0BB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C25706C7212346D300C0BB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C25706CA212346D300C0BB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C25706CC212346D300C0BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25706D1212346D300C0BB66 /* HTKPinterestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTKPinterestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25706D5212346D300C0BB66 /* HTKPinterestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTKPinterestTests.swift; sourceTree = "<group>"; };
+		C25706D7212346D300C0BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25706DC212346D300C0BB66 /* HTKPinterestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTKPinterestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25706E0212346D300C0BB66 /* HTKPinterestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTKPinterestUITests.swift; sourceTree = "<group>"; };
+		C25706E2212346D300C0BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25706BA212346D000C0BB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25706CE212346D300C0BB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25706D9212346D300C0BB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C25706B4212346D000C0BB66 = {
+			isa = PBXGroup;
+			children = (
+				C25706BF212346D000C0BB66 /* HTKPinterest */,
+				C25706D4212346D300C0BB66 /* HTKPinterestTests */,
+				C25706DF212346D300C0BB66 /* HTKPinterestUITests */,
+				C25706BE212346D000C0BB66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25706BE212346D000C0BB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25706BD212346D000C0BB66 /* HTKPinterest.app */,
+				C25706D1212346D300C0BB66 /* HTKPinterestTests.xctest */,
+				C25706DC212346D300C0BB66 /* HTKPinterestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25706BF212346D000C0BB66 /* HTKPinterest */ = {
+			isa = PBXGroup;
+			children = (
+				C25706C0212346D000C0BB66 /* AppDelegate.swift */,
+				C25706C2212346D000C0BB66 /* ViewController.swift */,
+				C25706C4212346D000C0BB66 /* Main.storyboard */,
+				C25706C7212346D300C0BB66 /* Assets.xcassets */,
+				C25706C9212346D300C0BB66 /* LaunchScreen.storyboard */,
+				C25706CC212346D300C0BB66 /* Info.plist */,
+			);
+			path = HTKPinterest;
+			sourceTree = "<group>";
+		};
+		C25706D4212346D300C0BB66 /* HTKPinterestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C25706D5212346D300C0BB66 /* HTKPinterestTests.swift */,
+				C25706D7212346D300C0BB66 /* Info.plist */,
+			);
+			path = HTKPinterestTests;
+			sourceTree = "<group>";
+		};
+		C25706DF212346D300C0BB66 /* HTKPinterestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C25706E0212346D300C0BB66 /* HTKPinterestUITests.swift */,
+				C25706E2212346D300C0BB66 /* Info.plist */,
+			);
+			path = HTKPinterestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C25706BC212346D000C0BB66 /* HTKPinterest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25706E5212346D300C0BB66 /* Build configuration list for PBXNativeTarget "HTKPinterest" */;
+			buildPhases = (
+				C25706B9212346D000C0BB66 /* Sources */,
+				C25706BA212346D000C0BB66 /* Frameworks */,
+				C25706BB212346D000C0BB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTKPinterest;
+			productName = HTKPinterest;
+			productReference = C25706BD212346D000C0BB66 /* HTKPinterest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25706D0212346D300C0BB66 /* HTKPinterestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25706E8212346D300C0BB66 /* Build configuration list for PBXNativeTarget "HTKPinterestTests" */;
+			buildPhases = (
+				C25706CD212346D300C0BB66 /* Sources */,
+				C25706CE212346D300C0BB66 /* Frameworks */,
+				C25706CF212346D300C0BB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25706D3212346D300C0BB66 /* PBXTargetDependency */,
+			);
+			name = HTKPinterestTests;
+			productName = HTKPinterestTests;
+			productReference = C25706D1212346D300C0BB66 /* HTKPinterestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C25706DB212346D300C0BB66 /* HTKPinterestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25706EB212346D300C0BB66 /* Build configuration list for PBXNativeTarget "HTKPinterestUITests" */;
+			buildPhases = (
+				C25706D8212346D300C0BB66 /* Sources */,
+				C25706D9212346D300C0BB66 /* Frameworks */,
+				C25706DA212346D300C0BB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25706DE212346D300C0BB66 /* PBXTargetDependency */,
+			);
+			name = HTKPinterestUITests;
+			productName = HTKPinterestUITests;
+			productReference = C25706DC212346D300C0BB66 /* HTKPinterestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25706B5212346D000C0BB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = HTK;
+				TargetAttributes = {
+					C25706BC212346D000C0BB66 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C25706D0212346D300C0BB66 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C25706BC212346D000C0BB66;
+					};
+					C25706DB212346D300C0BB66 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C25706BC212346D000C0BB66;
+					};
+				};
+			};
+			buildConfigurationList = C25706B8212346D000C0BB66 /* Build configuration list for PBXProject "HTKPinterest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25706B4212346D000C0BB66;
+			productRefGroup = C25706BE212346D000C0BB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25706BC212346D000C0BB66 /* HTKPinterest */,
+				C25706D0212346D300C0BB66 /* HTKPinterestTests */,
+				C25706DB212346D300C0BB66 /* HTKPinterestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C25706BB212346D000C0BB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25706CB212346D300C0BB66 /* LaunchScreen.storyboard in Resources */,
+				C25706C8212346D300C0BB66 /* Assets.xcassets in Resources */,
+				C25706C6212346D000C0BB66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25706CF212346D300C0BB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25706DA212346D300C0BB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25706B9212346D000C0BB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25706C3212346D000C0BB66 /* ViewController.swift in Sources */,
+				C25706C1212346D000C0BB66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25706CD212346D300C0BB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25706D6212346D300C0BB66 /* HTKPinterestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25706D8212346D300C0BB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25706E1212346D300C0BB66 /* HTKPinterestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25706D3212346D300C0BB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25706BC212346D000C0BB66 /* HTKPinterest */;
+			targetProxy = C25706D2212346D300C0BB66 /* PBXContainerItemProxy */;
+		};
+		C25706DE212346D300C0BB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25706BC212346D000C0BB66 /* HTKPinterest */;
+			targetProxy = C25706DD212346D300C0BB66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C25706C4212346D000C0BB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25706C5212346D000C0BB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C25706C9212346D300C0BB66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25706CA212346D300C0BB66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25706E3212346D300C0BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C25706E4212346D300C0BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25706E6212346D300C0BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYH28ZBEQ4;
+				INFOPLIST_FILE = HTKPinterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.khiemht.HTKPinterest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C25706E7212346D300C0BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYH28ZBEQ4;
+				INFOPLIST_FILE = HTKPinterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.khiemht.HTKPinterest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C25706E9212346D300C0BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYH28ZBEQ4;
+				INFOPLIST_FILE = HTKPinterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.khiemht.HTKPinterestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTKPinterest.app/HTKPinterest";
+			};
+			name = Debug;
+		};
+		C25706EA212346D300C0BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYH28ZBEQ4;
+				INFOPLIST_FILE = HTKPinterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.khiemht.HTKPinterestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTKPinterest.app/HTKPinterest";
+			};
+			name = Release;
+		};
+		C25706EC212346D300C0BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYH28ZBEQ4;
+				INFOPLIST_FILE = HTKPinterestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.khiemht.HTKPinterestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTKPinterest;
+			};
+			name = Debug;
+		};
+		C25706ED212346D300C0BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYH28ZBEQ4;
+				INFOPLIST_FILE = HTKPinterestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.khiemht.HTKPinterestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HTKPinterest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25706B8212346D000C0BB66 /* Build configuration list for PBXProject "HTKPinterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25706E3212346D300C0BB66 /* Debug */,
+				C25706E4212346D300C0BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25706E5212346D300C0BB66 /* Build configuration list for PBXNativeTarget "HTKPinterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25706E6212346D300C0BB66 /* Debug */,
+				C25706E7212346D300C0BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25706E8212346D300C0BB66 /* Build configuration list for PBXNativeTarget "HTKPinterestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25706E9212346D300C0BB66 /* Debug */,
+				C25706EA212346D300C0BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25706EB212346D300C0BB66 /* Build configuration list for PBXNativeTarget "HTKPinterestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25706EC212346D300C0BB66 /* Debug */,
+				C25706ED212346D300C0BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25706B5212346D000C0BB66 /* Project object */;
+}
